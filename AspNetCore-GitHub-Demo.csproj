@@ -5,6 +5,11 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>AspNetCore_GitHub_Demo</RootNamespace>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include=".github\workflows\azure-webapps-dotnet-core.yml" />
+  </ItemGroup>
 
 </Project>
